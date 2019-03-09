@@ -1,0 +1,50 @@
+{
+  "name": "arjanhulst/breadcrumbs-bundle",
+  "description": "Allows generating breadcrumbs from controller annotations.",
+  "keywords": [
+    "bundle",
+    "symfony",
+    "doctrine",
+    "entity",
+    "enum",
+    "type",
+    "DBAL",
+    "MySQL",
+    "SQLite",
+    "PostgreSQL",
+    "MSSQL"
+  ],
+  "homepage": "https://github.com/fre5h/DoctrineEnumBundle",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arjan van der Hulst",
+      "email": "avdhulst@gmail.com",
+      "role": "Creator"
+    }
+  ],
+  "support": {
+    "email": "avdhulst@gmail.com"
+  },
+  "require": {
+    "php": ">=7.1.3",
+    "doctrine/common": "^2.8",
+    "doctrine/dbal": "^2.6",
+    "symfony/config": "^4.0",
+    "symfony/dependency-injection": "^4.0",
+    "symfony/doctrine-bridge": "^4.0",
+    "symfony/framework-bundle": "^4.0",
+    "symfony/http-kernel": "^4.0",
+    "symfony/validator": "^4.0",
+    "twig/twig": "~2.4"
+  },
+  "autoload":     {
+    "psr-4": { "Arjanhulst\\BreadcrumbsBundle\\": "src/" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "6.x-dev"
+    }
+  }
+}
